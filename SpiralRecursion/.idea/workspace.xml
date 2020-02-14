@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3392ec31-e1c2-415e-b852-6ba4e0f8dc47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Xmf9Aqacd4HoYrJD2I38pBFMh0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SpiralRecursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3392ec31-e1c2-415e-b852-6ba4e0f8dc47" name="Default Changelist" comment="" />
+      <created>1581656036742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581656036742</updated>
+      <workItem from="1581656042275" duration="2954000" />
+      <workItem from="1581690894127" duration="7609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="31" key="#Notifications" timestamp="1581698026665">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="283" y="31" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1581698026665" />
+    <state x="503" y="52" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581695751371">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="503" y="52" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.738@0.0.1366.738" timestamp="1581695751371" />
+    <state width="1320" height="214" key="GridCell.Tab.0.bottom" timestamp="1581698242804">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="214" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581698242804" />
+    <state width="1320" height="214" key="GridCell.Tab.0.center" timestamp="1581698242803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="214" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581698242803" />
+    <state width="1320" height="214" key="GridCell.Tab.0.left" timestamp="1581698242803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="214" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581698242803" />
+    <state width="1320" height="214" key="GridCell.Tab.0.right" timestamp="1581698242803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="214" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581698242803" />
+    <state width="1320" height="216" key="GridCell.Tab.1.bottom" timestamp="1581697274559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581697274559" />
+    <state width="1320" height="216" key="GridCell.Tab.1.center" timestamp="1581697274559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1581697274559" />
+    <state width="1320" height="216" key="GridCell.Tab.1.left" timestamp="1581697274558">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1581697274558" />
+    <state width="1320" height="216" key="GridCell.Tab.1.right" timestamp="1581697274559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1320" height="216" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581697274559" />
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1581691085418">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581691085418" />
+  </component>
+</project>
