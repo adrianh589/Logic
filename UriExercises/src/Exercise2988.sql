@@ -1,3 +1,4 @@
+---------------------------------------- FORMA 1 -----------------------------
 WITH teams AS (select id, name
                from teams),
      matchesLocal AS (select t1.id as id, t1.name as name, count(t1.id) as vecesJugadas
@@ -102,3 +103,43 @@ FROM matchesLocal ml
          inner join scoreLocal sl
                     on sl.id = ml.id
          order by score desc, ml.id asc
+
+---------------------------------------- FORMA 2 -----------------------------
+SELECT name, -- Nombre del equipo
+    (
+        -- Matches local
+        (SELECT count(*) from matches m where team.id = team_1)
+        +
+        -- Matches visitante
+        (SELECT count(*) from matches m where team.id = team_2)
+    ) AS matches,
+    (
+        -- Victorias local
+        (SELECT count(*) from matches m where team.id = team_1 AND m.team_1_goals > m.team_2_goals)
+        +
+        -- Victorias visitante
+        (SELECT count(*) from matches m where team.id = team_2 AND m.team_2_goals > m.team_1_goals)
+    ) AS victories,
+    (
+        -- Derrotas local
+        (SELECT count(*) from matches m where team.id = team_1 AND m.team_1_goals < m.team_2_goals)
+        +
+        -- Derrotas visitante
+        (SELECT count(*) from matches m where team.id = team_2 AND m.team_2_goals < m.team_1_goals)
+    ) AS defeats,
+    (
+        -- Derrotas local
+        (SELECT count(*) from matches m where team.id = team_1 AND m.team_1_goals = m.team_2_goals)
+        +
+        -- Derrotas visitante
+        (SELECT count(*) from matches m where team.id = team_2 AND m.team_2_goals = m.team_1_goals)
+    ) AS draws,
+    (
+        -- Score local
+        (SELECT SUM(CASE WHEN m.team_1_goals > m.team_2_goals THEN 3 ELSE CASE WHEN m.team_1_goals = m.team_2_goals THEN 1 ELSE 0 END END) from matches m where team.id = team_1)
+        +
+        -- Score visitante
+        (SELECT SUM(CASE WHEN m.team_2_goals > m.team_1_goals THEN 3 ELSE CASE WHEN m.team_2_goals = m.team_1_goals THEN 1 ELSE 0 END END) from matches m where team.id = team_2)
+    ) AS score
+FROM teams AS team
+ORDER BY score DESC;
